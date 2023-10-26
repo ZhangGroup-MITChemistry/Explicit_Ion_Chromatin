@@ -201,10 +201,3 @@ if __name__ == '__main__':
 
     update_dna_topology(len(prot.atoms), len(prot.atoms)+len(dna.atoms))
 
-    #topo = merge(prot, dna)
-    #topo_2nucl = replicate(topo)
-
-    #topo.write_to_file('data.prot_dna.one_nucl', peptideFlag=1)
-    #topo_2nucl.write_to_file('data.prot_dna.forvmd', peptideFlag=0)
-    #topo_2nucl.write_to_file('data.prot_dna', peptideFlag=1)
-

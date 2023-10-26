@@ -19,8 +19,6 @@ for atoms in dna.atoms:
     if atoms['mol_i'] == 2:
         atoms['res_i'] += res_mol1 
 
-#update_dna_topology(len(prot.atoms), len(prot.atoms)+len(dna.atoms))
-
 print 'start merging data files ...'
 topo = merge(prot, dna)
 topo.write_to_file('data.prot_dna', peptideFlag=1)

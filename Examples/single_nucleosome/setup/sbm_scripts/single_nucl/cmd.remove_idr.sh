@@ -2,7 +2,7 @@
 # Author: Xingcheng Lin
 # Created Time: Wed Apr 17 18:40:46 2019
 # File Name: cmd.removeidr.sh
-# Description: Remove the disordered region of PRC2 in smog.top
+# Description: Remove the disordered region in smog.top
 #########################################################################
 #!/bin/bash
 

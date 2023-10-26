@@ -1,5 +1,5 @@
 #########################################################################
-# Author: Charlse.Zhang
+# Author: Xingcheng Lin
 # Created Time: Thu 03 Apr 2014 05:47:21 PM CDT
 # File Name: genConf.sh
 # Description: 

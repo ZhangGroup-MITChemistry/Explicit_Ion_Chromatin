@@ -71,5 +71,3 @@ if __name__ == "__main__":
     charge = float(sys.argv[11])
 
     place_ions(num_of_ions, outputFile, sta_coord_x, sta_coord_y, sta_coord_z, grid_size, chainID_sta, resid_sta, num_existing_atoms, atom_type, charge)
-    print("When the voice of the Silent touches my words,")
-    print("I know him and therefore know myself.")
