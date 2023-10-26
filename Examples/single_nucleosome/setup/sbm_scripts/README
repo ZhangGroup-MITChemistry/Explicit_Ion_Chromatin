@@ -1,0 +1,8 @@
+
+1) Need to create a new bond_list potential to have individual constraints
+2) For angle, we could just use the same list from angle_list.cpp
+3) For dihedral, we better create a new potential.
+4) For pair, we just add a new potential to the pair_list file.
+
+right now, r12 exclusion is implemented with a full matrix. should convert it to a sparse matrix to save memory.
+

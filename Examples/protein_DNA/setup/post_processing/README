@@ -1,0 +1,6 @@
+
+TODO list
+
+1) Need to remove any contacts between nucleosomes derived from the crystal structure.
+2) Probably should build the topology using 1kx5
+3) should we scale lj12 by a factor of 2 as well?

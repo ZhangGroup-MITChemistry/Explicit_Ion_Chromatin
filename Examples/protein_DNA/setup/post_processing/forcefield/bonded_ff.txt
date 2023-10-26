@@ -1,0 +1,26 @@
+bond_coeff          1       list	
+bond_coeff          2       list/ca
+
+
+angle_coeff     1	list
+angle_coeff 	2	stacking/3spn2	3.303059	3.580000	100.130000	3.000000	6.000000
+angle_coeff 	3	stacking/3spn2	3.597036	3.560000	90.480000	3.000000	6.000000
+angle_coeff 	4	stacking/3spn2	3.183556	3.850000	104.390000	3.000000	6.000000
+angle_coeff 	5	stacking/3spn2	3.781071	3.450000	93.230000	3.000000	6.000000
+angle_coeff 	6	stacking/3spn2	2.186902	4.150000	102.590000	3.000000	6.000000
+angle_coeff 	7	stacking/3spn2	2.973231	3.930000	93.320000	3.000000	6.000000
+angle_coeff 	8	stacking/3spn2	2.289675	4.320000	103.700000	3.000000	6.000000
+angle_coeff 	9	stacking/3spn2	3.133365	3.870000	94.550000	3.000000	6.000000
+angle_coeff 	10	stacking/3spn2	3.288719	3.510000	95.450000	3.000000	6.000000
+angle_coeff 	11	stacking/3spn2	3.487094	3.470000	87.630000	3.000000	6.000000
+angle_coeff 	12	stacking/3spn2	3.530115	3.670000	106.360000	3.000000	6.000000
+angle_coeff 	13	stacking/3spn2	3.625717	3.420000	83.120000	3.000000	6.000000
+angle_coeff 	14	stacking/3spn2	2.210803	4.150000	102.690000	3.000000	6.000000
+angle_coeff 	15	stacking/3spn2	2.968451	3.990000	96.050000	3.000000	6.000000
+angle_coeff 	16	stacking/3spn2	2.110421	4.340000	100.460000	3.000000	6.000000
+angle_coeff 	17	stacking/3spn2	3.348470	3.840000	100.680000	3.000000	6.000000
+angle_coeff     18      list/ca
+
+
+dihedral_coeff	    1	list
+dihedral_coeff	    2	list/ca

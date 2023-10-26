@@ -1,0 +1,24 @@
+
+colvarsTrajFrequency    5000  # output every 10 steps
+colvarsRestartFrequency 5000
+
+colvar {
+	name eedist 
+	distance {
+	group1 { atomNumbers 975 976 977 978 979 980 981 982 983 984 985 986 987 988 2296 2297 2298 2299 2300 2301 2302 2303 2304 2305 2306 2307 2308 2309 2310 }
+	group2 { atomNumbers 1628 1629 1630 1631 1632 1633 1634 1635 1636 1637 1638 1639 1640 1641 1642 1643 1644 1645 1646 1647 1648 1649 1650 1651 1652 1653 1654 1655 1656 }
+	}
+}
+
+
+harmonic {
+  name              pulling
+  colvars           eedist
+  centers           RefValue
+  forceConstant 0.0
+  targetForceConstant 0.004
+  targetForceExponent 4.0
+  targetNumSteps 90000 
+  outputEnergy      yes
+}
+
