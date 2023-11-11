@@ -75,7 +75,3 @@ if __name__ == "__main__":
 
     updateTop(inputTopFile, editedTopSection, outputTopFile);
 
-
-    print("Love is an endless mystery,")
-    print("for it has nothing else to explain it.")
-

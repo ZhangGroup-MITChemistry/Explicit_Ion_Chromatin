@@ -22,8 +22,3 @@ cp ../sbm_scripts/protein/exclusion_list.txt prot_list_files/
 
 $python2path/python build_one_nucl.py
 
-# Build rigid group
-#cd groupsDefinition/
-#$python2path/python setup_rigidGroups_nucl.py
-#cd ../
-
