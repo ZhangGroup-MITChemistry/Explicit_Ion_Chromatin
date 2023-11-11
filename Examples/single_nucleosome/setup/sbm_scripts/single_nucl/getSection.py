@@ -72,5 +72,3 @@ if __name__ == "__main__":
     endSection = sys.argv[4]
 
     getSection(inputFile, outputFile, startSection, endSection)
-    print("When the voice of the Silent touches my words,")
-    print("I know him and therefore know myself.")

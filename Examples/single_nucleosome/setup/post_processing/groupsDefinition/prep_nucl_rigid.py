@@ -8,7 +8,7 @@ import os
 
 # rigid_n_bp is the total number of nucleosomal DNA bp that we rigidize
 # we rigidize the central rigid_n_bp base pairs in the nucleosomal DNA
-rigid_n_bp = 147
+rigid_n_bp = 73
 
 # set the additional number of bp on both ends of the fiber
 n_bp_end_1 = 0
@@ -76,7 +76,7 @@ for i in range(n_nucl):
         rigid_core_list.append(each)
 
 # write group_rigid.txt
-with open('group_rigid_fullrigid.txt', 'w') as output_file:
+with open('group_rigid_innerlayer.txt', 'w') as output_file:
     for i in range(n_nucl):
         rigid_list[i] = [str(int(each)) for each in rigid_list[i]]
         line = 'group nucl%d id %s \n' % (i + 1, ' '.join(rigid_list[i]))

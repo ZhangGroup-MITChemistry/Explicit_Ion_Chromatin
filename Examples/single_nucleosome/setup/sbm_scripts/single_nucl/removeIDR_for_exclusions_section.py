@@ -58,6 +58,3 @@ if __name__ == "__main__":
     inputFile = sys.argv[1]
     outputFile = sys.argv[2]
     removeIDR_for_exclusions_section(inputFile, outputFile)
-
-    print("Love is an endless mystery,")
-    print("for it has nothing else to explain it.")
