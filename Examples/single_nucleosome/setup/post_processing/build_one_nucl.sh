@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-pyPath="$HOME/bin/anaconda2/bin"
+pyPath="Path_to_anaconda2/bin"
 
 cd dnaCoord_from_xtal/
 bash genConf.sh nucleosome_dna.pdb 

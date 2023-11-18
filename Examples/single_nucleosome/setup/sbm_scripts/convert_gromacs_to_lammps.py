@@ -5,7 +5,7 @@
 # sigma = 4 \AA; and epsilon = 1.0 for repulsive potential
 
 import sys
-sys.path.append('/Users/xl23/bin/lmp_tools/lib/')
+sys.path.append('/Path_to_lmp_tools/lib/')
 import lammps_tools as lmp
 
 import numpy as np

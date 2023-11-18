@@ -6,9 +6,9 @@
 #########################################################################
 #!/bin/bash
 
-spn2cdir="/Users/xl23/GitHub/USER-3SPN2/"
-export X3DNA="/Users/xl23/bin/x3dna-v2.4/"
-export PATH="/Users/xl23/bin/x3dna-v2.4/bin:$PATH"
+spn2cdir="/Path_to_GitHub/USER-3SPN2/"
+export X3DNA="/Path_to_x3dna-v2.4/"
+export PATH="/Path_to_x3dna-v2.4/bin:$PATH"
 
 # modified the pdb2cg_dna.py from  ${spn2cdir}/utils to output residue id
 /Users/xl23/bin/anaconda2/bin/python ../pdb2cg_dna.py atomistic.pdb 

@@ -6,9 +6,9 @@
 #########################################################################
 #!/bin/bash
 
-spn2cdir="$HOME/Downloads/GitHub/LAMMPS-3SPN2/"
+spn2cdir="Path_to_GitHub/LAMMPS-3SPN2/"
 
-pyPath="$HOME/bin/anaconda2/bin"
+pyPath="Path_to_anaconda2/bin"
 
 $pyPath/python ${spn2cdir}/utils/make_bp_params.py dnaSeq.txt 
 x3dna_utils cp_std BDNA

@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-export python2path=/Users/xl23/bin/anaconda2/bin
+export python2path=/Path_to_anaconda2/bin
 
 
 cd dna_list_files/

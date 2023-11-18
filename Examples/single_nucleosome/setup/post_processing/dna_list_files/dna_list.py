@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('/Users/xclin/bin/lmp_tools/lib/')
+sys.path.append('/Path_to_lmp_tools/lib/')
 import lammps_tools as lmp
 
 def update_dna_topology(n_prot_atoms, n_atom_per_dna):
