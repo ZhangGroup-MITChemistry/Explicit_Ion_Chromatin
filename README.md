@@ -1,6 +1,9 @@
 # Explicit_Ion_Chromatin
 Lammps Implementation of the Explicit-ion Residue-resolution Chromatin Model
 
+## Update in 2024
+We provide an example src folder of the Lammps 2016 version which include all the customized codes.
+
 ## Installation guidance
 These codes have been tested to run correctly on the Lammps 2016 version.
 
